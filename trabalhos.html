@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FAVICON -->
+  <link rel="icon" href="images/favicon (4).ico" type="image/x-icon" />
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -34,16 +36,16 @@
 
 <body>
   <header class="top-header row">
-    <div class="col-6 studio">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 studio">
       <p>Akira Tattoo Studio desde 2000</p>
     </div>
-    <div class="col-6 what"><button type="button" class="btn btn-success"><i class="fab fa-whatsapp"></i>
-        (13)00000-0000</button>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 what">
+      <button type="button" class="btn btn-success"><i class="fab fa-whatsapp"></i> (13)00000-0000</button>
     </div>
   </header>
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="logo" height="150" loading="lazy"></a>
+      <a class="navbar-brand" href="/index.html"><img src="/images/logo.png" alt="logo" height="150" loading="lazy"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -76,111 +78,207 @@
 
 
   <section class="row article">
+    
     <div class="col gallery">
       <div class="title">
         <h1>TRABALHOS</h1>
       </div>
+      <div class="row">
+        <div class="col">
+          
+          <div class="tipo pb-1 pt-1"><button type="button" class="btn btn-outline-light ">Feras</button></div>
+          <div class="tipo pb-1 pt-1"><button type="button" class="btn btn-outline-light ">Caravelas</button></div>
+          <div class="tipo pb-1 pt-1"><button type="button" class="btn btn-outline-light ">Delicadas</button></div>
+          <div class="tipo pb-1 pt-1"><button type="button" class="btn btn-outline-light ">Neoriental</button></div>
+          
+          
+          
+        </div>
+        
+        
+        
+      </div>
       <div class="gallery-items row">
-        <div class="col-lg-3 col-md-12">
-          <a href="#" class="pop">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+          <a href="#" data-toggle="modal" data-target="#exampleModal">
                 <img src="/images/tattoo1.jpg" alt="" />
               </a>
-              <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog" data-dismiss="modal">
-                  <div class="modal-content">
-                    <div class="modal-body">
-                      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                          class="sr-only">Close</span></button>
-                      <img src="" class="imagepreview" style="width: 100%;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
-          </div>
-          <div class="col-lg-3 col-md-12">
-            
-              <a href="#" class="pop">
-                <img src="/images/tattoo2.jpg" alt="" />
-              </a>
-              <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
-                <div class="modal-dialog" data-dismiss="modal">
+                <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-body">
-                      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                          class="sr-only">Close</span></button>
-                      <img src="" class="imagepreview" style="width: 100%;">
+                      <img src="/images/tattoo1.jpg" alt="" />
                     </div>
+                    
                   </div>
                 </div>
               </div>
             
           </div>
-          <div class="col-lg-3 col-md-12">
-            
-              <a href="#" class="pop">
-                <img src="/images/tattoo3.jpg" alt="" />
-              </a>
-              <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" data-dismiss="modal">
-                  <div class="modal-content">
-                    <div class="modal-body">
-                      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                          class="sr-only">Fechar</span></button>
-                      <img src="" class="imagepreview" style="width: 100%;">
-                    </div>
+          <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+            <a href="#" data-toggle="modal" data-target="#exampleModal1">
+              <img src="/images/tattoo2.jpg" alt="" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="/images/tattoo2.jpg" alt="" />
                   </div>
-                </div>
-              </div>
-            
-          </div>
-          <div class="col-lg-3 col-md-12">
-            
-              <a href="#" class="pop">
-                <img src="/images/tattoo4.jpg" alt="" />
-              </a>
-              <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" data-dismiss="modal">
-                  <div class="modal-content">
-                    <div class="modal-body">
-                      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                          class="sr-only">Close</span></button>
-                      <img src="" class="imagepreview" style="width: 100%;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
-          </div>
-        <div class="col-lg-3 col-md-12">
-        
-          <!-- <a href="#" class="pop"> -->
-            <img src="/images/tattoo5.jpg" alt="" />
-          <!-- </a> -->
-          <!-- <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog" data-dismiss="modal">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                      class="sr-only">Close</span></button>
-                  <img src="" class="imagepreview" style="width: 100%;">
+          
                 </div>
               </div>
             </div>
-          </div> -->
-        
+          
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+            <a href="#" data-toggle="modal" data-target="#exampleModal2">
+              <img src="/images/tattoo3.jpg" alt="" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="/images/tattoo3.jpg" alt="" />
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+            <a href="#" data-toggle="modal" data-target="#exampleModal3">
+              <img src="/images/tattoo4.jpg" alt="" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="/images/tattoo4.jpg" alt="" />
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+          <a data-toggle="modal" data-target="#exampleModal4">
+            <img src="/images/tattoo5.jpg" alt="" />
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal4">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img src="/images/tattoo5.jpg" alt="" />
+                </div>
+          
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+          <a data-toggle="modal" data-target="#exampleModal5">
+            <img src="/images/tattoo6.jpg" alt="" />
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal5">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img src="/images/tattoo6.jpg" alt="" />
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+          <a data-toggle="modal" data-target="#exampleModal6">
+            <img src="/images/tattoo7.jpg" alt="" />
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal6">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img src="/images/tattoo7.jpg" alt="" />
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+          <a data-toggle="modal" data-target="#exampleModal7">
+            <img src="/images/tattoo8.jpg" alt="" />
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal7">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img src="/images/tattoo8.jpg" alt="" />
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+          <a data-toggle="modal" data-target="#exampleModal8">
+            <img src="/images/tattoo9.jpg" alt="" />
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal8">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img src="/images/tattoo9.jpg" alt="" />
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+          <a data-toggle="modal" data-target="#exampleModal9">
+            <img src="/images/tattoo10.jpg" alt="" />
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal9">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img src="/images/tattoo10.jpg" alt="" />
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+        
         
         
       </div>
       
+      
+
+
       <div class="pagination">
-        <div class="prev">Prev</div>
-        <div class="page">Page <span class="page-num"></span></div>
-        <div class="next">Next</div>
+        <div class="prev">Anterior</div>
+        <div class="page"> Página <span class="page-num"></span> </div>
+        <div class="next">Próxima</div>
       </div>
     </div>
   </section>
